@@ -1,0 +1,17 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - osmnx
+  - dask
+  - distributed
+  - nbserverproxy
+  - jupyterlab=0.35.1
+  - nodejs=8.9
+  - ipywidgets
+  - bokeh
+  - jupyterlab=0.35.1
+  - nodejs=8.9
+  - pip:
+    - kubernetes
+    - git+https://github.com/dask/dask-kubernetes.git
